@@ -22,32 +22,24 @@ changes in this fork
 HOW TO USE
 ===================
 
-* import the library to your project 
-
-<code>
-
-	import com.orleonsoft.android.simplefilechooser.ui.FileChooserActivity;
-
-</code>
+* import the library to your project   
+    
+              import com.orleonsoft.android.simplefilechooser.ui.FileChooserActivity;   
+    
 
 * Add your project's .R import to FileChooserActivity.java and FileArrayAdapter.java 
 
 * Declare FileChooserActivity in AndroidManifest.xml 
-
-<code> 
-
+   
         <activity
             android:name="com.orleonsoft.android.simplefilechooser.ui.FileChooserActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name" >
         </activity>
 
-<code> 
-
 Example of use:
 
-<code> 
-
+   
 	import com.orleonsoft.android.simplefilechooser.ui.FileChooserActivity;
 
 	public class MainActivity extends Activity {
@@ -113,4 +105,4 @@ Example of use:
 		}
 	}
 
-</code> 
+
