@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -22,13 +23,14 @@
             android:singleLine="true" />
 
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="0dp"
+            android:layout_weight="20"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
             <TextView
                 android:id="@+id/name"
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dip"
                 android:layout_marginTop="5dip"
@@ -39,12 +41,32 @@
 
             <TextView
                 android:id="@+id/details"
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dip"
                 android:textColor="@android:color/black" >
             </TextView>
+
         </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/checkedFile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="invisible"
+                android:focusable="false"
+                android:scaleX="1.60"
+                android:scaleY="1.60"
+                android:text="" />
+
+        </RelativeLayout>
+
     </LinearLayout>
 
 </LinearLayout>
