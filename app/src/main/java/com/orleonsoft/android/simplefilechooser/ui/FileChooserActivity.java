@@ -9,6 +9,7 @@ import java.util.List;
 import com.orleonsoft.android.simplefilechooser.Constants;
 import com.orleonsoft.android.simplefilechooser.FileInfo;
 import com.orleonsoft.android.simplefilechooser.adapters.FileArrayAdapter;
+import com.orleonsoft.android.simplefilechooser.R;
 
 import android.app.Activity;
 import android.app.ListActivity;
