@@ -20,6 +20,10 @@ changes in this fork
 HOW TO USE
 ===================
 
+You can check the branch [AndroidStudioTestProject](https://github.com/circulosmeos/simple-file-chooser/tree/AndroidStudioTestProject) for a complete Android Studio project example.
+   
+Or follow the step-by-step guide:   
+   
 * import the library to your project   
     
               import com.orleonsoft.android.simplefilechooser.ui.FileChooserActivity;   
